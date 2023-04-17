@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meeting Minutes</title>
+        <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <div class="navigationtable"><h1>Table of Contents</h1></div>
+            <nav>
+                <ul>
+                    <li><a href="#meetingdetails">Meeting Details</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#newoldbusiness">New/Old Business</a></li>
+                    <li><a href="#diagramsfindings">Diagrams & Findings</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                    <li><a href="#comments">Comments & Concerns</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <hr>
+            <h1>Smörgåsbord Development Team: Second Meeting</h1>
+            <img src="dscn25891.jpg" 
+            alt="Smörgåsbord"
+            width="600"
+            />
+            <div class="companyinfo">
+                <h3>Company Info</h3>
+                <p>
+                    Smörgåsbord Inc. <br>
+                    221 S. Bluebird Rd <br>
+                    San Diego, CA <br>
+                    94011 <br>
+                    USA <br>
+                </p>
+            </div>
+            <hr>
+            <section>
+            <h2 id="meetingdetails">I. Meeting Details</h2>
+                <h3>Topic: Brainstorming and Logistics</h3>
+                <h3>Date: January 22, 2023</h3>
+                <h3>Atendees: <span class="member">Anna</span>, <span class="member">Sven</span>, 
+                    <span class="member">Lars</span>, <span class="member">Emma</span>, 
+                    <span class="member">Karina</span>, <span class="member">Anders</span></h3>
+                <h3>Absent:<span class="member">David</span>, <span class="member">Alice</span>, 
+                    <span class="member">Robert</span>, <span class="member">Joseph</span>, 
+                    <span class="member">Kevin</span>, <span class="member">Kyle</span></h3>
+            </section>
+            <hr>
+            <section>
+            <h2 id="agenda">II. Agenda</h2>
+                <ul>
+                    <li>Decide upon general layout of Smörgåsbord.</li>
+                    <li>Forumulate ideas for inclusion of foodstuffs.</li>
+                    <li>Discuss logistics and procurement of materials.</li>
+                    <li>Set a timeline for future meetings and completion of project.</li>
+                </ul>
+            </section>
+            <hr>
+            <section>
+            <h2 id="newoldbusiness">III. New/Old Business</h2>
+                <h3>Old Business</h3>
+                    <ol>
+                        <li>Approval of funding comfirmed by <b class="jargon">stakeholders</b>.</li>
+                        <li>Possible locations for event compiled.</li>
+                        <li><b class="jargon">Market research</b> and <b class="jargon">competitive analysis</b> process begun.</li>
+                    </ol>
+                <h3>New Business</h3>
+                    <ol>
+                        <li>Will need to coordinate with <b class="jargon">catering</b> to finalize design.</li>
+                        <li>Decide upon tableware for use by guests.</li>
+                        <li><strong><em>Need</em> to decide upon location <em>ASAP</em>.</strong></li>
+                        <li>Furnishings for location will need to be procured.</li>
+                    </ol>
+            </section>
+            <hr>
+            <section>
+            <h3 id="diagramsfindings">IV. Diagrams & Findings</h3>
+                <h4>Market Research</h4>
+                <p>Diagram of common foods found in <i>Smörgåsbords</i>.</p>
+                <img src="smorgasbord.jpeg" 
+                alt="Smörgåsbord contents"
+                width="500"
+                />
+                <details>
+                    <summary>User Preferences</summary>
+                    <ul>
+                        <li>People like a mix of hot and cold foods.</li>
+                        <li>Sausages are popular.</li>
+                        <li><i>Smörgåsbords</i> provide a different cultural experience than usual buffets.</li>
+                    </ul>
+                </details>
+            </section>
+            <hr>
+            <section>
+            <h3 id="comments"Comments & Concerns>Comments & Concerns</h3>
+                <p></p>
+            </section>
+            <hr>
+        </main>
+
+
+
+        <footer>
+            <h4 id="feedback">Feedback</h4>
+            <h5>Smörgåsbord Mailing List</h5>
+            <form onsubmit="alert('Smörgåsbords are awesome!')">
+                <input type="text" placeholder="Enter Email Address" />
+                <button> Submit</button>
+            </form>
+
+            <h5>Survey</h5>
+            <form>
+                <fieldset>
+                    <legend>What culinary concept related to meals do you find most interesting?</legend>
+                    <input type="radio" id="tea" name ="meal" value="T">
+                    <label for="tea">Tea(UK)</label>
+                    
+                    <input type="radio" id="bbq" name="meal" value="B">
+                    <label for="bbq">BBQ(US)</label>
+
+                    <input type="radio" id="smorg" name="meal" value="S">
+                    <label for="smorg">Smörgåsbord(Sweden)</label>
+                    
+                    <input type="radio" id="merienda" name="meal" value="M">
+                    <label for="merienda">Merienda(Southern Europe)</label>
+                </fieldset>
+            </form>
+
+            <h5>User Feedback</h5>
+            <label for="feedback">Tell us how we're doing:</label>
+            <textarea id="feedback" name="feedback" rows="5" cols="33">There's so much culinary diversity in San Diego!</textarea>
+
+            <h5>Food Choices for Smörgåsbord</h5>
+            <label for="food-choice">Choose a food: </label>
+            <input list="food-choices" id="food-choice" name="food-choice">
+            <datalist id="food-choices">
+                <option value="Sausages"></option>
+                <option value="Herring"></option>
+                <option value="Cheese"></option>
+                <option value="Meatballs"></option>
+                <option value="Smoked Ham"></option>
+            </datalist>
+            
+            <h5>Cheese Choices for Smörgåsbord</h5>
+            <label for="cheese-select">Choose a cheese:</label>
+            <select name="cheeses" id="cheese-select">
+                <option value="">--Please choose an option--</option>
+                <option value="vasterbotten">Västerbotten</option>
+                <option value="bluecheese">Blue Cheese</option>
+                <option value="hush">Hushållsost</option>
+                <option value="herr">Herrgårdsost</option>
+                <option value="greve">Grevé</option>
+            </select>
+
+
+        </footer>
+    </body>
+</html>
