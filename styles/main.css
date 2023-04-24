@@ -32,6 +32,7 @@ main h3{
 
     text-decoration:coral;
 
+
 }
 
 
@@ -74,6 +75,7 @@ main h3{
 .companyinfo > h3{
     font-family: 'Jost', sans-serif;
 
+
     font-size: 25px;
 
 
@@ -87,6 +89,7 @@ main h3{
 
 /*paragraph that is child of companyinfo class*/
 .companyinfo > p{
+
 
     font-family: 'Jost', sans-serif;
     font-size: 15px;
@@ -104,6 +107,8 @@ main h3{
 
 /*Section 1 includes h2 heading, then h3 headings for information*/
 #section1-meeting{
+
+
 
     margin-top: 20px;
 
@@ -201,6 +206,7 @@ figure figcaption{
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+
     margin-top: 10px;    
 }
 
@@ -218,11 +224,14 @@ input[type=text]{
 
 
 #section6-feedback legend,label{
+
     font-family: 'Jost', sans-serif;
     font-size: 20px;
 }
 
+
 fieldset{
     width:700px;
 }
+
 
