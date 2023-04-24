@@ -18,7 +18,23 @@
 
 .companyinfo{
     text-align: center;
+}
+.companyinfo > h3{
+    /*temporary borders, to adjust margin and padding*/
+    
 
+    margin-top: 20;
+    margin-bottom: -10;
+    margin-left: -5;
+    margin-right
+
+}
+
+.companyinfo > p{
+    
+
+    font-family: 'Jost', sans-serif;
+    font-family: 15px;
 }
 
 #heading{
