@@ -1,4 +1,41 @@
 
+
+/*Refers to the entire document*/
+*{
+    /*sets the background color of entire file to white*/
+    background-color: #ffffff;
+}
+
+/* refers to all h2 headings inside main*/
+main h2 {
+    /*sets all the sections titles (which are h2) to have this font and font size*/
+    font-family: 'Bebas Neue', cursive;  
+    font-size: 50px;
+
+}
+
+/*Refers to all h3 headings inside main*/
+main h3{
+    /* sets the main subheadings of section titles to have this font and font size*/
+    font-family: 'Jost', sans-serif;
+    font-family: 25px;
+}
+
+
+/* Heading section includes title, title picture, and company info*/
+#section0-heading{
+    /* adds border to heading area which includes main title, image, and company info*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+
+    margin-bottom: 20px;
+
+}
+
+/*main title*/
+
 #maintitle{
     /* Sets the main title to have this font and font size */
     font-family: 'Bebas Neue', cursive;  
@@ -6,6 +43,7 @@
     text-align: center;
 }
 
+/* main image*/
 #mainimage{
     /* adjusting the image under the main title*/
     display: block ;
@@ -16,13 +54,22 @@
     width: auto\9;
 }
 
+
+/*company info class*/
 .companyinfo{
     text-align: center;
 }
+/* heading that is child of companyinfo class*/
 .companyinfo > h3{
     font-family: 'Jost', sans-serif;
     font-family: 15px;
+
     /*temporary borders, to adjust margin and padding*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+
     
 
     margin-top: 20;
@@ -32,45 +79,54 @@
 
 }
 
+
+/*paragraph that is child of companyinfo class*/
 .companyinfo > p{
-    
+    /*temporary borders, to adjust margin and padding*/
 
-    font-family: 'Jost', sans-serif;
-    font-family: 15px;
-}
-
-#heading{
-    /* adds border to heading area which includes main title, image, and company info*/
     border-width: 5px;
     border-style: solid;
     border-color: black;
     border-radius: 4px;
 
-}
 
-
-main h2 {
-    /*sets all the sections titles (which are h2) to have this font and font size*/
-    font-family: 'Bebas Neue', cursive;  
-    font-size: 50px;
-
-}
-
-
-main h3{
-    /* sets the main subheadings of section titles to have this font and font size*/
     font-family: 'Jost', sans-serif;
-    font-family: 25px;
+    font-family: 15px;
+
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 
-
-
-*{
-    /*sets the background color of entire file to white*/
-    background-color: #ffffff;
-}
 
 .dropdown{
     position: relative
     display: inline-block;
+}
+
+
+/*Section 1 includes h2 heading, then h3 headings for information*/
+#section1-meeting{
+    /*temporary borders, to adjust margin and padding*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+
+    margin-top: 20px;
+}
+
+#meetingdetails{
+    /*temporary borders, to adjust margin and padding*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+
+#section1-meeting h3{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+
 }
