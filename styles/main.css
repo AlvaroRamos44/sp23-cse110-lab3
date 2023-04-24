@@ -1,4 +1,5 @@
 
+
 /*Refers to the entire document*/
 *{
     /*sets the background color of entire file to white*/
@@ -34,6 +35,7 @@ main h3{
 }
 
 /*main title*/
+
 #maintitle{
     /* Sets the main title to have this font and font size */
     font-family: 'Bebas Neue', cursive;  
@@ -52,6 +54,7 @@ main h3{
     width: auto\9;
 }
 
+
 /*company info class*/
 .companyinfo{
     text-align: center;
@@ -66,6 +69,7 @@ main h3{
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+
     
 
     margin-top: 20;
@@ -75,13 +79,16 @@ main h3{
 
 }
 
+
 /*paragraph that is child of companyinfo class*/
 .companyinfo > p{
     /*temporary borders, to adjust margin and padding*/
+
     border-width: 5px;
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+
 
     font-family: 'Jost', sans-serif;
     font-family: 15px;
@@ -121,4 +128,5 @@ main h3{
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+
 }
