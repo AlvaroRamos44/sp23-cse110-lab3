@@ -1,5 +1,4 @@
 
-
 /*Refers to the entire document*/
 *{
     /*sets the background color of entire file to white*/
@@ -18,7 +17,14 @@ main h2 {
 main h3{
     /* sets the main subheadings of section titles to have this font and font size*/
     font-family: 'Jost', sans-serif;
-    font-family: 25px;
+    font-size: 25;
+
+    text-decoration:coral;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
 }
 
 
@@ -35,7 +41,6 @@ main h3{
 }
 
 /*main title*/
-
 #maintitle{
     /* Sets the main title to have this font and font size */
     font-family: 'Bebas Neue', cursive;  
@@ -54,7 +59,6 @@ main h3{
     width: auto\9;
 }
 
-
 /*company info class*/
 .companyinfo{
     text-align: center;
@@ -62,14 +66,13 @@ main h3{
 /* heading that is child of companyinfo class*/
 .companyinfo > h3{
     font-family: 'Jost', sans-serif;
-    font-family: 15px;
+    font-size: 25px;
 
     /*temporary borders, to adjust margin and padding*/
     border-width: 5px;
     border-style: solid;
     border-color: black;
     border-radius: 4px;
-
     
 
     margin-top: 20;
@@ -79,19 +82,16 @@ main h3{
 
 }
 
-
 /*paragraph that is child of companyinfo class*/
 .companyinfo > p{
     /*temporary borders, to adjust margin and padding*/
-
     border-width: 5px;
     border-style: solid;
     border-color: black;
     border-radius: 4px;
 
-
     font-family: 'Jost', sans-serif;
-    font-family: 15px;
+    font-size: 15px;
 
     margin-top: -10px;
     margin-bottom: 20px;
@@ -128,5 +128,100 @@ main h3{
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+}
 
+/*Section 2 includes h2 heading, then unordered list*/
+
+#section2-agenda{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+
+#section2-agenda li{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+
+
+#section3-business{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+
+#section3-business ol{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+#section4-diagrams{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+
+#section4-diagrams img{
+    /* adjusting the image under the main title*/
+    display: block ;
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 60%;
+    height: auto;
+    width: auto\9;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+
+}
+
+#section4-diagrams p{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+
+#section5-comments{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+
+#section5-comments p{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+
+#section5-comments video{
+    display: block ;
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 60%;
+    height: auto;
+    width: auto\9;
+}
+
+figure figcaption{
+    margin-bottom: 10px;
+    font-family: 'Jost', sans-serif;
 }
