@@ -1,4 +1,5 @@
 
+
 /*Refers to the entire document*/
 *{
     /*sets the background color of entire file to white*/
@@ -17,6 +18,7 @@ main h2 {
 main h3{
     /* sets the main subheadings of section titles to have this font and font size*/
     font-family: 'Jost', sans-serif;
+
     font-size: 25;
 
     text-decoration:coral;
@@ -25,6 +27,7 @@ main h3{
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+
 }
 
 
@@ -66,13 +69,16 @@ main h3{
 /* heading that is child of companyinfo class*/
 .companyinfo > h3{
     font-family: 'Jost', sans-serif;
+
     font-size: 25px;
+
 
     /*temporary borders, to adjust margin and padding*/
     border-width: 5px;
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+
     
 
     margin-top: 20;
@@ -81,6 +87,7 @@ main h3{
     margin-right: 0
 
 }
+
 
 /*paragraph that is child of companyinfo class*/
 .companyinfo > p{
@@ -107,10 +114,12 @@ main h3{
 /*Section 1 includes h2 heading, then h3 headings for information*/
 #section1-meeting{
     /*temporary borders, to adjust margin and padding*/
+
     border-width: 5px;
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+
 
     margin-top: 20px;
 }
@@ -198,6 +207,7 @@ main h3{
     border-style: solid;
     border-color: black;
     border-radius: 4px;
+
 }
 
 #section5-comments{
@@ -206,6 +216,7 @@ main h3{
     border-color: black;
     border-radius: 4px;
 }
+
 
 #section5-comments p{
     font-family: 'Jost', sans-serif;
@@ -224,4 +235,5 @@ main h3{
 figure figcaption{
     margin-bottom: 10px;
     font-family: 'Jost', sans-serif;
+
 }
