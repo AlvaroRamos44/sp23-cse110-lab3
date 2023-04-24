@@ -20,12 +20,14 @@
     text-align: center;
 }
 .companyinfo > h3{
+    font-family: 'Jost', sans-serif;
+    font-family: 15px;
     /*temporary borders, to adjust margin and padding*/
     
 
     margin-top: 20;
     margin-bottom: -10;
-    margin-left: -5;
+    margin-left: -10;
     margin-right
 
 }
