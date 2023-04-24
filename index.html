@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles/main.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+        <style>
+            
+        </style>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meeting Minutes</title>
@@ -23,11 +36,13 @@
         </header>
 
         <main>
-            <hr>
-            <h1>Smörgåsbord Development Team: Second Meeting</h1>
-            <img src="images/dscn25891.jpg" 
+            <section id="heading">
+            <h1 id="maintitle"><span 
+            style="color: rgb(0, 81, 186);
+            text-align: center; ">Smörgåsbord Development Team:</span> <span 
+            style="color: #ffda1a; text-align: center;">Second Meeting</span></h1>
+            <img id="mainimage" src="images/dscn25891-new.png" 
             alt="Smörgåsbord"
-            width="600"
             />
             <div class="companyinfo">
                 <h3>Company Info</h3>
@@ -39,7 +54,8 @@
                     USA <br>
                 </p>
             </div>
-            <hr>
+            </section>
+
             <section>
             <h2 id="meetingdetails">I. Meeting Details</h2>
                 <h3>Topic: Brainstorming and Logistics</h3>
@@ -80,7 +96,7 @@
             </section>
             <hr>
             <section>
-            <h3 id="diagramsfindings">IV. Diagrams & Findings</h3>
+            <h2 id="diagramsfindings">IV. Diagrams & Findings</h2>
                 <h4>Market Research</h4>
                 <p>Diagram of common foods found in <i>Smörgåsbords</i>.</p>
                 <img src="images/smorgasbord.jpeg" 
@@ -98,7 +114,7 @@
             </section>
             <hr>
             <section>
-            <h3 id="comments">Comments & Concerns</h3>
+            <h2 id="comments">V. Comments & Concerns</h2>
                 <p>Video Clip</p>
                     <video controls width ="300">
                         <source src="videos/clip.mp4" type="video/mp4">
@@ -110,14 +126,14 @@
                     </figure>
             </section>
             <hr>
-        </main>
+        
 
-        <footer>
-            <h4 id="feedback">Feedback</h4>
+        
+            <h2 id="feedback">VI. Feedback</h2>
             <h5>Smörgåsbord Mailing List</h5>
             <form onsubmit="alert('Smörgåsbords are awesome!')">
                 <input type="text" placeholder="Enter Email Address" />
-                <button> Submit</button>
+                <button>Submit</button>
             </form>
 
             <h5>Survey</h5>
@@ -164,7 +180,9 @@
                 <option value="greve">Grevé</option>
             </select>
 
+        </main>
+        
+        <footer></footer>
 
-        </footer>
     </body>
 </html>

@@ -1,0 +1,76 @@
+
+#maintitle{
+    /* Sets the main title to have this font and font size */
+    font-family: 'Bebas Neue', cursive;  
+    font-size: 75px; 
+    text-align: center;
+}
+
+#mainimage{
+    /* adjusting the image under the main title*/
+    display: block ;
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 60%;
+    height: auto;
+    width: auto\9;
+}
+
+.companyinfo{
+    text-align: center;
+}
+.companyinfo > h3{
+    font-family: 'Jost', sans-serif;
+    font-family: 15px;
+    /*temporary borders, to adjust margin and padding*/
+    
+
+    margin-top: 20;
+    margin-bottom: -10;
+    margin-left: -10;
+    margin-right: 0
+
+}
+
+.companyinfo > p{
+    
+
+    font-family: 'Jost', sans-serif;
+    font-family: 15px;
+}
+
+#heading{
+    /* adds border to heading area which includes main title, image, and company info*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+
+}
+
+
+main h2 {
+    /*sets all the sections titles (which are h2) to have this font and font size*/
+    font-family: 'Bebas Neue', cursive;  
+    font-size: 50px;
+
+}
+
+
+main h3{
+    /* sets the main subheadings of section titles to have this font and font size*/
+    font-family: 'Jost', sans-serif;
+    font-family: 25px;
+}
+
+
+
+*{
+    /*sets the background color of entire file to white*/
+    background-color: #ffffff;
+}
+
+.dropdown{
+    position: relative
+    display: inline-block;
+}
